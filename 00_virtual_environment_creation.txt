@@ -1,0 +1,19 @@
+Always activate a virtual environment for your projects.
+
+
+
+How to create and activate your virtual environment?
+
+1. Open terminal using "Ctrl + ~"
+
+2. Execute "pwd" to check your present working directory where the virtual environment will be installed.
+
+3. Execute "python3 -m venv .venv" to create a virtual environment folder named .venv.
+
+4. Execute "source .venv/bin/activate" to activate your virtual environment.
+
+5. Now you can import libraries on this virtual environment.
+
+   Eg. To use Jupyter Notebook you require ipykernel library which you can install using "pip install ipykernel"
+
+Always make sure you are downloading any library in your virtual environment.
